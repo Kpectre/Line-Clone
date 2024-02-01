@@ -22,7 +22,7 @@ const Personal = () => {
   const sendData = () => {};
 
   const { data, error, isLoading } = useSWR(
-    `http://localhost:5000/posts/${params.id}}`,
+    `https://line-clone.onrender.com/posts/${params.id}}`,
     fetcher
   );
 
